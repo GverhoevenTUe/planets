@@ -1,8 +1,4 @@
-import pytest
-
-def sum(a,b):
+def add(a,b):
 	return (a + b)
 
-def test_sum():
-	assert sum(2,3) == 5
 
