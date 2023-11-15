@@ -1,5 +1,6 @@
 import pytest
+import sum
 
-def test_add():
-    assert add(2, 3) == 5
+def test_sum():
+    assert sum(2, 3) == 5
 
